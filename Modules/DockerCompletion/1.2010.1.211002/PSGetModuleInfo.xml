@@ -1,0 +1,126 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">DockerCompletion</S>
+      <Version N="Version">1.2010.1.211002</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Docker command completion for PowerShell.</S>
+      <S N="Author">Masatoshi Higuchi</S>
+      <S N="CompanyName">matt9ucci</S>
+      <S N="Copyright">(c) 2021 Masatoshi Higuchi. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-02T09:12:48-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-10-04T15:12:08.6356473-04:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/matt9ucci/DockerCompletion/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/matt9ucci/DockerCompletion</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>docker</S>
+          <S>completion</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">First release for `docker compose` completion (Compose v2.0.0)_x000D__x000A__x000D__x000A_In this release, the expression of NestedModules in psd1 file has changed:_x000D__x000A_  Old: NestedModules = @('NativeCommandCompletion')_x000D__x000A_  New: NestedModules = @('NativeCommandCompletion/NativeCommandCompletion.psd1')_x000D__x000A__x000D__x000A_The change is due to the Publish-Module function and PowerShell Gallery, which can not accept the old style.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="7">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2021 Masatoshi Higuchi. All rights reserved.</S>
+          <S N="description">Docker command completion for PowerShell.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">First release for `docker compose` completion (Compose v2.0.0)_x000D__x000A__x000D__x000A_In this release, the expression of NestedModules in psd1 file has changed:_x000D__x000A_  Old: NestedModules = @('NativeCommandCompletion')_x000D__x000A_  New: NestedModules = @('NativeCommandCompletion/NativeCommandCompletion.psd1')_x000D__x000A__x000D__x000A_The change is due to the Publish-Module function and PowerShell Gallery, which can not accept the old style.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4948</S>
+          <S N="downloadCount">17090</S>
+          <S N="packageSize">42492</S>
+          <S N="published">02/10/2021 09:12:48 -04:00</S>
+          <S N="created">02/10/2021 09:12:48 -04:00</S>
+          <S N="lastUpdated">04/10/2022 12:39:23 -04:00</S>
+          <S N="tags">docker completion PSModule</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-10-04T12:39:23Z</S>
+          <S N="NormalizedVersion">1.2010.1.211002</S>
+          <S N="Authors">Masatoshi Higuchi</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">DockerCompletion.nuspec|DockerCompletion.psd1|DockerCompletion.psm1|OSSLICENSES.txt|Compose\completers.ps1|Compose\completers4arguments.ps1|DockerCompletionUtility\DockerCompletionUtility.psd1|DockerCompletionUtility\DockerCompletionUtility.psm1|NativeCommandCompletion\NativeCommandCompletion.psd1|NativeCommandCompletion\NativeCommandCompletion.psm1|completers.ps1|completers4arguments.ps1</S>
+          <S N="GUID">3c963cd2-8dce-445a-b7b7-778726965d7d</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="CompanyName">N/A</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Robson Brasil\Documents\PowerShell\Modules\DockerCompletion\1.2010.1.211002</S>
+    </MS>
+  </Obj>
+</Objs>
