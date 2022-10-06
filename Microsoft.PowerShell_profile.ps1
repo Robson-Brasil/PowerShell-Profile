@@ -46,6 +46,7 @@ function procurar()      {winget search $args}
 function update()        {winget upgrade $args}
 function upgrade()       {winget upgrade $args}
 function atualizar()     {winget upgrade --all $args}
+function instalar()      {winget install $args}
 function desinstalar()   {winget uninstall $args}
 #Edição dos Profiles do WindowsTerminal e PowerShell
 function profile()       {code $PROFILE}
