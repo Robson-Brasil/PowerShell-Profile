@@ -53,6 +53,7 @@ function profile()       {code $PROFILE}
 function settings.json() {code "$HOME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"}
 #Arquivo de Historico do powerShell
 function history()       {code "$HOME\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"}
+#function corrigir         {rm .\.ps_history $args}
 
 function ..()            {Set-Location ".."}
 function ....()          {Set-Location "..\.."}
