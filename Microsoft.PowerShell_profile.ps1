@@ -32,11 +32,6 @@ Set-Alias open Invoke-Item
 
 Set-Alias limpar clear
 
-# History definitions
-$HistoryFilePath = Join-Path ([Environment]::GetFolderPath('UserProfile')) .ps_history
-Register-EngineEvent PowerShell.Exiting -Action { Get-History | Export-Clixml $HistoryFilePath } | out-null
-if (Test-path $HistoryFilePath) { Import-Clixml $HistoryFilePath | Add-History }
-
 #Set-Alias winfetch pwshfetch-test-1
 
 #(Invoke-WebRequest "https://raw.githubusercontent.com/kiedtl/winfetch/master/winfetch.ps1" -UseBasicParsing).Content.Remove(0,1) | Invoke-Expression
